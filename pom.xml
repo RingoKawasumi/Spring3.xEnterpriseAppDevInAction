@@ -5,6 +5,8 @@
     <groupId>com.zhujie.study</groupId>
     <packaging>pom</packaging>
     <modules>
+        <module>_02_GettingStarted</module>
+        <module>_15_SpringMVC</module>
         <module>_15_SpringMVC</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
