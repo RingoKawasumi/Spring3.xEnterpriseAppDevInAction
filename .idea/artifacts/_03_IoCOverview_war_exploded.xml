@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="_03_IoCOverview:war exploded">
+    <output-path>$PROJECT_DIR$/_03_IoCOverview/target/_03_IoCOverview</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="_03_IoCOverview" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/_03_IoCOverview/target/_03_IoCOverview/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="_03_IoCOverview/web/Web" />
+    </root>
+  </artifact>
+</component>

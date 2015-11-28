@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_03_IoCOverview:war">
+    <output-path>$PROJECT_DIR$/_03_IoCOverview/target</output-path>
+    <root id="archive" name="_03_IoCOverview.war">
+      <element id="artifact" artifact-name="_03_IoCOverview:war exploded" />
+    </root>
+  </artifact>
+</component>
