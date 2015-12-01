@@ -6,9 +6,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>_02_GettingStarted</module>
-        <module>_15_SpringMVC</module>
-        <module>_15_SpringMVC</module>
         <module>_03_IoCOverview</module>
+        <module>_15_SpringMVC</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Spring3.xEnterpriseAppDevInAction</artifactId>
