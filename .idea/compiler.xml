@@ -25,12 +25,14 @@
         <module name="_02_GettingStarted" />
         <module name="_03_IoCOverview" />
         <module name="_15_SpringMVC" />
+        <module name="Hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_02_GettingStarted" target="1.5" />
       <module name="_03_IoCOverview" target="1.5" />
       <module name="_15_SpringMVC" target="1.5" />
+      <module name="Hello" target="1.5" />
       <module name="HelloWorld2" target="1.5" />
       <module name="Spring3.xEnterpriseAppDevInAction" target="1.5" />
     </bytecodeTargetLevel>

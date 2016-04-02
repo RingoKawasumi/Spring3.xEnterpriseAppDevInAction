@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/_02_GettingStarted_1" />
     <file type="web" url="file://$PROJECT_DIR$/_03_IoCOverview" />
     <file type="web" url="file://$PROJECT_DIR$/_15_SpringMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/Hello" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
