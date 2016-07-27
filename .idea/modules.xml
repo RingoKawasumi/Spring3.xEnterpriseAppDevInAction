@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring3.xEnterpriseAppDevInAction.iml" filepath="$PROJECT_DIR$/Spring3.xEnterpriseAppDevInAction.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02_GettingStarted/_02_GettingStarted.iml" filepath="$PROJECT_DIR$/_02_GettingStarted/_02_GettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03_IoCOverview/_03_IoCOverview.iml" filepath="$PROJECT_DIR$/_03_IoCOverview/_03_IoCOverview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_BeanWire/_04_BeanWire.iml" filepath="$PROJECT_DIR$/_04_BeanWire/_04_BeanWire.iml" />
       <module fileurl="file://$PROJECT_DIR$/_15_SpringMVC/_15_SpringMVC.iml" filepath="$PROJECT_DIR$/_15_SpringMVC/_15_SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/hello.iml" filepath="$PROJECT_DIR$/Hello/hello.iml" />
     </modules>
   </component>
 </project>

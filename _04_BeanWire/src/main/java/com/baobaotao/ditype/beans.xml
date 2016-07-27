@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id="car" class="com.baobaotao.ditype.Car">
+              <property name="maxSpeed"><value>200</value></property>
+              <property name="brand"><value>红旗CA72</value></property>
+              <property name="price"><value>20000.00</value></property>
+       </bean>
+
+       <bean id="car1" class="com.baobaotao.ditype.Car">
+              <constructor-arg type="java.lang.String">
+                     <value>红旗CA72</value>
+              </constructor-arg>
+              <constructor-arg type="double">
+                     <value>20000.00</value>
+              </constructor-arg>
+       </bean>
+
+       <bean id="car2" class="com.baobaotao.ditype.Car">
+              <constructor-arg index="0" value="红旗CA72"/>
+              <constructor-arg index="1" value="中国一汽"/>
+              <constructor-arg index="2" value="20000"/>
+       </bean>
+
+       <bean id="car3" class="com.baobaotao.ditype.Car">
+              <constructor-arg index="0" type="java.lang.String">
+                     <value>红旗CA72</value>
+              </constructor-arg>
+              <constructor-arg index="1" type="java.lang.String">
+                     <value>中国一汽</value>
+              </constructor-arg>
+              <constructor-arg index="2" type="int">
+                     <value>200</value>
+              </constructor-arg>
+       </bean>
+
+       <bean id="office" class="com.baobaotao.ditype.Office"/>
+       <bean id="boss" class="com.baobaotao.ditype.Boss">
+              <constructor-arg>
+                     <value>John</value>
+              </constructor-arg>
+              <constructor-arg>
+                     <ref bean="car"/>
+              </constructor-arg>
+              <constructor-arg>
+                     <ref bean="office"/>
+              </constructor-arg>
+       </bean>
+
+       <bean id="carFactory" class="com.baobaotao.ditype.CarFactory"/>
+       <bean id="car5" factory-bean="carFactory" factory-method="createHongQiCar"/>
+
+       <bean id="car6" class="com.baobaotao.ditype.CarFactory" factory-method="createCar"/>
+</beans>
