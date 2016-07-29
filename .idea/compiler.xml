@@ -25,6 +25,7 @@
         <module name="_02_GettingStarted" />
         <module name="_03_IoCOverview" />
         <module name="_04_BeanWire" />
+        <module name="_05_AdvancedTopic" />
         <module name="_15_SpringMVC" />
         <module name="hello" />
         <module name="Hello" />
@@ -34,6 +35,7 @@
       <module name="_02_GettingStarted" target="1.5" />
       <module name="_03_IoCOverview" target="1.5" />
       <module name="_04_BeanWire" target="1.5" />
+      <module name="_05_AdvancedTopic" target="1.5" />
       <module name="_15_SpringMVC" target="1.5" />
       <module name="hello" target="1.5" />
       <module name="Hello" target="1.5" />

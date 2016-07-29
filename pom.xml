@@ -10,6 +10,7 @@
         <module>_15_SpringMVC</module>
         <module>Hello</module>
         <module>_04_BeanWire</module>
+        <module>_05_AdvancedTopic</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Spring3.xEnterpriseAppDevInAction</artifactId>
