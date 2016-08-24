@@ -27,6 +27,7 @@
         <module name="_04_BeanWire" />
         <module name="_05_AdvancedTopic" />
         <module name="_06_SpringAOP" />
+        <module name="_07_AspectJSchemaAOP" />
         <module name="_15_SpringMVC" />
         <module name="hello" />
         <module name="Hello" />
@@ -38,6 +39,7 @@
       <module name="_04_BeanWire" target="1.5" />
       <module name="_05_AdvancedTopic" target="1.5" />
       <module name="_06_SpringAOP" target="1.5" />
+      <module name="_07_AspectJSchemaAOP" target="1.5" />
       <module name="_15_SpringMVC" target="1.5" />
       <module name="hello" target="1.5" />
       <module name="Hello" target="1.5" />
